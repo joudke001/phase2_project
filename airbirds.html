@@ -1,0 +1,141 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">    
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/social-likes/dist/social-likes_classic.css">	
+	<link rel="stylesheet" href="css/myStyle2.css">
+
+<!-- extra code for this code -->	
+	
+	<!--Bootstrap-->
+<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+
+<!--Latest stable release of jQuery Core Library-->
+<script src="https://code.jquery.com/jquery-1.12.2.min.js" integrity="sha256-lZFHibXzMHo3GGeehn1hudTAP3Sc0uKXBXAzHX1sjtk=" crossorigin="anonymous"></script> 
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/social-likes/dist/social-likes.min.js"></script>
+
+<!--Bootstrap JS-->
+<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js">
+</script>
+<!-- end of extra code -->	
+    <title>Air Birds</title>
+  </head>
+  <body>
+   <!--Navigation-->
+   <nav class="navbar navbar-expand-md navbar-light bg-light fixed-top">
+       <a class="navbar-brand" href="index.html"><i class="fas fa-feather display-2 text-danger-blue"></i></a>
+       
+       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mainNavbar">
+           <span class="navbar-toggler-icon"></span>
+       </button>
+       
+       <div id="mainNavbar" class="collapse navbar-collapse ">
+           <ul class="navbar-nav mx-auto">
+              <!-- li.nav-item*5>a.nav-link[href=#]{Home} -->
+               <li class="nav-item"><a href="home.html" class="nav-link">Home</a></li>
+               <li class="nav-item"><a href="seal.html" class="nav-link">About</a></li>
+               <li class="nav-item"><a href="seabirds.html" class="nav-link">Sea</a></li>
+               <li class="nav-item"><a href="airbirds.html" class="nav-link">Air</a></li>
+               <li class="nav-item"><a href="landbirds.html" class="nav-link">Land</a></li>
+           </ul>
+       </div>
+   </nav>
+
+<h2 style="text-align:center">Air Birds</h2>
+<h4 style="text-align:center">Birds Of Prey</h4>
+
+<div class="responsive">
+  <div class="img">
+      <img src="images/golden-eagle-818809_1920_1280.jpg" alt="Golden Eagle" width="300" height="200">
+    <div class="desc">Golden Eagle</div>
+  </div>
+</div>
+
+
+<div class="responsive">
+  <div class="img">
+    <img src="images/owl-3340957_1920_1280.jpg" alt="Owl" width="300" height="200">
+    <div class="desc">Owl</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="img">
+    <img src="images/vulture-2849304_1920.jpg" alt="Vulture" width="300" height="200">
+    <div class="desc">Vulture</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="img">
+    <img src="images/bald-eagle-1259676.jpg" alt="Bald Eagle" width="300" height="200">
+    <div class="desc">Bald Eagle</div>
+  </div>
+</div>
+
+<div class="clearfix"></div>
+
+<!-- The Modal -->
+<div id="myModal" class="modal">
+  <span class="close">×</span>
+  <img class="modal-content" id="img01">
+  <div id="caption"></div>
+</div>
+
+<script>
+// Get the modal
+var modal = document.getElementById('myModal');
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() { 
+    modal.style.display = "none";
+}
+
+// Get all images and insert the clicked image inside the modal
+// Get the content of the image description and insert it inside the modal image caption
+var images = document.getElementsByTagName('img');
+var modalImg = document.getElementById("img01");
+var captionText = document.getElementById("caption");
+var i;
+for (i = 0; i < images.length; i++) {
+   images[i].onclick = function(){
+       modal.style.display = "block";
+       modalImg.src = this.src;
+       modalImg.alt = this.alt;
+       captionText.innerHTML = this.nextElementSibling.innerHTML;
+   }
+}
+
+</script>
+
+<div style="padding:6px;">
+  <br>
+  <p style="text-align:center">Many of them live in areas above ground, and do their best hunting while in mid-flight.</p>
+</div>
+<br><br><br><br>
+<div class="footer">
+<div class="social-likes">
+	<div class="facebook" title="Share link on Facebook">Facebook</div>
+	<div class="twitter" title="Share link on Twitter">Twitter</div>
+	<div class="plusone" title="Share link on Google+">Google+</div>
+</div>    
+    <p>Copyright © 2018.  All rights reserved.</p>
+</div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+  </body>
+</html>

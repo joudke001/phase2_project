@@ -1,0 +1,133 @@
+
+* {
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+   
+}
+
+html, body {
+    height: 100%;
+    font-size: 16px;
+	background-image: url("../images/seamless-2030347.jpg");
+	color: white;
+	text-decoration: none;
+}
+
+
+nav {
+    height: 75px;
+	
+}
+
+nav ul {
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+	
+    
+}
+
+nav ul li {
+    list-style-type: none;
+	
+}
+
+nav a {
+    text-decoration: none;
+	color: white;
+
+}
+header p:first-child {
+    background-color: cornflowerblue;
+    padding: 10px 0;
+    text-align: center;
+    color: #FFF;
+}
+
+.header-parent {
+    height: 350px;
+    background-color: #EC9787;
+        background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding-left: 100px;
+    color:white;
+}
+
+#section-one {
+    display: flex;
+    padding-top: 45px;
+    padding-bottom: 40px;
+    justify-content: space-around;
+}
+
+#section-one figure {
+    width: 230px;
+}
+
+#section-two {
+    height: 350px;
+    background-color: #EC9787;
+    background-image: url("../images/bald-eagle-521492.jpg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding-left: 100px;
+    
+}
+
+#section-three {
+    display: flex;
+    padding-top: 45px;
+    padding-bottom: 40px;
+    justify-content: space-around;
+}
+
+#section-three figure {
+    width: 230px;
+}
+
+
+#section-four {
+    height: 350px;
+    background-color: #EC9787;
+    background-image: url("../images/horned-bird-676809_2.jpg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding-left: 100px;
+}
+    
+footer {
+    height: 75px;
+}
+
+footer ul {
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+footer ul li {
+    list-style-type: none;
+}
+
+footer a {
+    text-decoration: none;
+	color: white;
+
+}
+    

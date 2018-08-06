@@ -1,0 +1,150 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">    
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/social-likes/dist/social-likes_classic.css">
+	<link rel="stylesheet" href="css/myStyle.css">
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/social-likes/dist/social-likes.min.js"></script>
+
+<script>	
+$(document).ready(function(){
+    $("h4").click(function(){
+        $("img").toggle();
+    });
+});
+</script>
+
+    <title>Birds</title>
+  
+  </head>
+  <body>
+   <!--Navigation-->
+   <nav class="navbar navbar-expand-md navbar-light bg-light fixed-top">
+       <a class="navbar-brand" href="index.html"><i class="fas fa-feather display-2 text-danger-blue"></i></a>
+       
+       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mainNavbar">
+           <span class="navbar-toggler-icon"></span>
+       </button>
+       
+       <div id="mainNavbar" class="collapse navbar-collapse ">
+           <ul class="navbar-nav mx-auto">
+              <!-- li.nav-item*5>a.nav-link[href=#]{Home} -->
+               <li class="nav-item"><a href="home.html" class="nav-link">Home</a></li>
+               <li class="nav-item"><a href="seal.html" class="nav-link">About</a></li>
+               <li class="nav-item"><a href="seabirds.html" class="nav-link">Sea</a></li>
+               <li class="nav-item"><a href="airbirds.html" class="nav-link">Air</a></li>
+               <li class="nav-item"><a href="landbirds.html" class="nav-link">Land</a></li>
+           </ul>
+       </div>
+       
+   </nav>
+   
+    <div class="container-fluid p-0">
+       <div class="row p-0">
+           <div class="col-12 p-0">
+               <p class="bg-info text-light mb-0 py-3 text-center">Birds of a feather don't always flock together</p>
+           </div>
+       </div>
+	</div>
+
+<!--Jumbotron-->
+    <div class="jumbotron jumbotron-fluid bg-dark text-light">
+       <div class="container">
+        <h1 class="display-1">Birds</h1>
+        <h2 class="display-4">Not all of them are the same.</h2>
+        <a href="seal.html" class="btn btn-warning-blue btn-lg">About this site</a>
+       </div>
+    </div> <!--end of jumbotron-->
+<!--Cards-->	
+    <div class="container">
+        <div class="row">
+           <div class="col-12"><h3 class="display-4 font-weight-bold text-center">Birds of all types</h3></div> 
+        </div>
+        
+        <div class="row">
+            <div class="col-sm-6 col-md-3">
+                 <div class="card">
+            <!--image card-->
+                   <img src="images/albatross-2212194_640.jpg" alt="" class="card-img-top">     
+                </div>
+                <div class="card-body">
+                    <h4>Albatross</h4>
+                    <a class="btn btn-link" href="seabirds.html">Learn more<i class="fas fa-feather"></i></a>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-3">
+                 <div class="card">
+            <!--image card-->
+                   <img src="images/ostrich-3468447_1920.jpg" alt="" class="card-img-top">     
+                </div>
+                <div class="card-body">
+                    <h4>Ostrich</h4>
+                    <a class="btn btn-link" href="landbirds.html">Learn more<i class="fas fa-feather"></i></a>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-3">
+                 <div class="card">
+            <!--image card-->
+                   <img src="images/bald-eagles-341898_640.jpg" alt="" class="card-img-top">     
+                </div>
+                <div class="card-body">
+                    <h4>Eagle</h4>
+                    <a class="btn btn-link" href="airbirds.html">Learn more<i class="fas fa-feather"></i></a>
+                </div>
+            </div>
+                        <div class="col-sm-6 col-md-3">
+                 <div class="card">
+            <!--image card-->
+                   <img src="images/animal-beak-bird-733559.jpg" alt="" class="card-img-top">     
+                </div>
+                <div class="card-body">
+                    <h4>Penguin</h4>
+                    <a class="btn btn-link" href="seabirds.html">Learn more<i class="fas fa-feather"></i></a>
+                </div>
+            </div>               
+        </div>
+    </div>
+    <br><br><br><br><br>
+    
+<div class="container">
+  <h2>Contact Us</h2>
+  <form action="#">
+
+  <!-- used # instead of "/action_page.php" for resulting effect after clicking submit button -->
+  <!-- submit button will go back to top of page instead -->
+    <div class="form-group">
+      <label for="email">Email:</label>
+      <input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
+    </div>
+   
+    <button type="submit" class="btn btn-primary">Submit</button>
+  </form>
+</div>
+    <br><br><br><br>
+    <div class="footer">
+
+<div class="social-likes">
+	<div class="facebook" title="Share link on Facebook">Facebook</div>
+	<div class="twitter" title="Share link on Twitter">Twitter</div>
+	<div class="plusone" title="Share link on Google+">Google+</div>
+</div>
+    <p>Copyright © 2018.  All rights reserved.</p>
+</div>
+
+
+    
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+  </body>
+</html>
